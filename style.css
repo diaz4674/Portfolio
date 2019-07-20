@@ -143,11 +143,6 @@ div.headerText {
   align-items: center;
 }
 
-.description-container {
-  margin-top: 15px;
-  position: relative;
-}
-
 .aboutContainer {
   margin-top: 15px;
   padding: 15px;
@@ -200,10 +195,6 @@ div.headerText {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-#contactSection {
-  margin: 0;
 }
 
 .projectsContainer h1 {
