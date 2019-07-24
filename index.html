@@ -114,59 +114,48 @@
     <div class='projectsContainer' id="projectsSection">
         <h1>Projects</h1>
         <div class="pojectCards">
-            <div class="card" style="width: 60rem;">
-                <div class='projects-title'>
-                    <h2>BookMark</h2>
-                </div>
-                <div>
-                    <video playsinline="playsinline" muted="muted" loop="loop" class='project-video'>
-                        <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <div class="button-container">
-                    <a href="https://quizzical-blackwell-d608a3.netlify.com/" target="_blank">
-                        <button class="this">Live Site</button>
-                    </a>
-                    <a href="https://github.com/diaz4674/BookMark/tree/master/FE-BookMark" target="_blank">
-                        <button class="this">Github Repo</button>
-                    </a>
-                </div>
-            </div>
-            <div class="card" style="width: 60rem;">
-                <div class='projects-title'>
-                    <h2>Stay at Home Moms</h2>
-                </div>
-                <div>
-                    <video playsinline="playsinline" muted="muted" loop="loop" class='project-video'>
-                        <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <div class="button-container">
-                    <a href="https://ecstatic-boyd-937833.netlify.com/" target="_blank">
-                        <button class="this">Live Site</button>
-                    </a>
-                    <a href="https://github.com/a-to-z-experiences-team/build-aToz-FE" target="_blank">
-                        <button class="this">Github Repo</button>
-                    </a>
-                </div>
-            </div>
+        <!-- Carousel slider -->
+        <div id="demo" class="carousel slide" data-ride="carousel">
 
-            <div class="card" style="width: 60rem;">
-                <div class='projects-title'>
-                    <h2>Friend Finder</h2>
-                </div>
-                <div>
-                    <video playsinline="playsinline" muted="muted" loop="loop" class='project-video'>
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+            <div class="carousel-item active ">
+                <div class='project-video'> 
+                    <p class="project-title"> BookMark </p>
+                    <video playsinline="playsinline" muted="muted" loop="loop" >
                         <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
                     </video>
                 </div>
-                <div class="button-container">
-                    <a href="https://github.com/friend-finder-app/FriendFinder-FE/tree/master/friend-finder" target="_blank">
-                        <button class="slide this">Friend Finder</button>
-                    </a>
-                </div>
-
             </div>
+            <!-- <div class="carousel-item">
+                <div class='project-video'> 
+                    <video playsinline="playsinline" muted="muted" loop="loop" >
+                        <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <video playsinline="playsinline" muted="muted" loop="loop" class='project-video'>
+                    <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+                </video>
+            </div> -->
+            </div>
+            
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
         </div>
     </div>
 
