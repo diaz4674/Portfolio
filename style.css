@@ -223,9 +223,12 @@ div.headerText {
   color: white;
 }
 
-.pojectCards{
-  width: 100%;
-  margin: 0 auto;
+.projects-title {
+  margin-top: 4%;
+}
+.projectCards{
+  width: 70%;
+  margin: 3% auto;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -256,7 +259,8 @@ background-color: #f77063;
 .button-container {
   display: flex;
   justify-content: center;
-  margin: 30px 0;
+  margin-top: 50px;
+  
 }
 .hiddenSkills {
   display: none;
@@ -486,5 +490,12 @@ div.socialSection{
   }
   .emailContainer {
     padding-bottom: 15px;
+  }
+  .projectCards{
+    width: 100%;
+    margin: 3% auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
 } 
