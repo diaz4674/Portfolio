@@ -208,7 +208,12 @@ div.headerText {
   font-size: 25px;
   font-weight: bold;
 }
-.project-video {
+
+.project-description {
+  position: absolute;
+  color: black;
+}
+.project-slide {
   position: relative;
   padding: 100px 0;
   background-color: white;
