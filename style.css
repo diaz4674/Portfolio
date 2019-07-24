@@ -209,8 +209,17 @@ div.headerText {
   font-weight: bold;
 }
 
+.flexStart {
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-start; */
+}
 .project-description {
-  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
   color: black;
 }
 .project-slide {
@@ -218,6 +227,10 @@ div.headerText {
   padding: 100px 0;
   background-color: white;
   border-radius: 5px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .projectsContainer h1 {
   color: white;
@@ -227,10 +240,9 @@ div.headerText {
   margin-top: 4%;
 }
 .projectCards{
-  width: 70%;
+  width: 70%; 
   margin: 3% auto;
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
 }
 img.card-img-top * {
@@ -259,8 +271,6 @@ background-color: #f77063;
 .button-container {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
-  
 }
 .hiddenSkills {
   display: none;
