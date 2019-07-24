@@ -83,7 +83,7 @@ video {
   width: 100%;
   min-width: 100%; 
   min-height: 100%;
-  opacity: .8;
+  opacity: 1;
 }
 
 .shadedColor {
@@ -188,7 +188,7 @@ div.headerText {
   justify-content: center;
 }
 .projectsContainer {
-    background:#f77063;
+  background:#f77063;
   background: linear-gradient(to right bottom, #f77063 55%, #FFB6AF 45%);
   width: 100%;
   padding: 15px;
@@ -197,15 +197,52 @@ div.headerText {
   align-items: center;
 }
 
+.project-title {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  top: 37px;
+  position: absolute;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.flexStart {
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-start; */
+}
+.project-description {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: black;
+}
+.project-slide {
+  position: relative;
+  padding: 100px 0;
+  background-color: white;
+  border-radius: 5px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .projectsContainer h1 {
   color: white;
 }
 
-.pojectCards{
-  width: 100%;
-  margin: 0 auto;
+.projects-title {
+  margin-top: 4%;
+}
+.projectCards{
+  width: 70%; 
+  margin: 3% auto;
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
 }
 img.card-img-top * {
@@ -234,7 +271,6 @@ background-color: #f77063;
 .button-container {
   display: flex;
   justify-content: center;
-  margin: 30px 0;
 }
 .hiddenSkills {
   display: none;
@@ -464,5 +500,12 @@ div.socialSection{
   }
   .emailContainer {
     padding-bottom: 15px;
+  }
+  .projectCards{
+    width: 100%;
+    margin: 3% auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
 } 
