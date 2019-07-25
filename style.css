@@ -110,6 +110,16 @@ div.headerText {
   justify-content: center;
   margin: 25px 0;
 }
+
+.full-stack {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.my-name {
+  font-weight: bold;
+  
+}
 .header-video {
   opacity: .8;
   background-color: red;
