@@ -110,6 +110,10 @@ div.headerText {
   justify-content: center;
   margin: 25px 0;
 }
+.header-video {
+  opacity: .8;
+  background-color: red;
+}
 .this {
   text-decoration: none;
   margin: 0 15px;
