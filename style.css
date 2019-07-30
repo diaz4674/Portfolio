@@ -128,7 +128,7 @@ div.headerText {
   overflow: hidden;
 }
 .header-video {
-  opacity: .6;
+  opacity: .5;
   width: 100%;
   overflow: hidden;
 }
@@ -495,14 +495,13 @@ div.socialSection{
 } 
 
 @media only screen and (max-width: 621px) {
-    div.headerText {
-        top: 10.5%;
+div.headerText {
+  top: 11.5%;
   position: absolute;
   width: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
     .profileImg {
   width: 10em;
