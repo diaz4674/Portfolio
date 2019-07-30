@@ -112,6 +112,9 @@ div.headerText {
   margin: 25px 0;
 }
 
+.projects-text-muted {
+  color: white;
+}
 .full-stack {
   font-weight: bold;
   font-size: 20px;
