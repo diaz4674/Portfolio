@@ -254,6 +254,10 @@ div.headerText {
   flex-direction: column;
   align-items: center;
 }
+
+.carousel-item {
+  transition: 1s ease-in;
+}
 .projectsContainer h1 {
   color: white;
 }
@@ -364,7 +368,6 @@ background-color: #f77063;
 .pojectCards .card{
   margin: 35px 0;
 }
-
 
 .footerContainer{
     display: flex;
