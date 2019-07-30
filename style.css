@@ -503,6 +503,9 @@ div.headerText {
   flex-direction: column;
   align-items: center;
 }
+.skillsButton {
+  font-size:1.2em;
+}
     .profileImg {
   width: 10em;
   border-radius: 150px;
